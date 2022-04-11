@@ -1,4 +1,22 @@
--  name: Install Packages 
+-  name: Install Packages.
    package:
      name:
-       - htop 
+       - htop
+       - vim
+
+-  name: Copy wallpaper file.
+   copy:
+     src: files/wallpaper.png
+     dest: /usr/share/backgrounds/ansible-wallpaper.png
+     owner: root
+     group: root
+
+-  name: Set Wallpaper.
+   dconf:
+     key: "/org/gnome/desktop/background/picture-uri"
+     value: "'file://user/share/backgrounds/ansible-wallpaper.png'"
+
+-  name: Set Wallpaper position.
+   dconf:
+     key: "/org/gnome/desktop/background/picture-options"
+     value: "'zoom'"
