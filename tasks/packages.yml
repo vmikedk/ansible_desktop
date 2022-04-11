@@ -1,4 +1,4 @@
 -  name: Install Packages 
-     packages:
-       name:
-         - htop 
+   yum:
+     name:
+       - htop 
