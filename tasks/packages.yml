@@ -24,7 +24,12 @@
      key: "/org/gnome/desktop/background/picture-options"
      value: "'zoom'"
 
--  name: Add microsoft repo 
+-  name: Add Microsoft GPG Key.
+   apt_key:
+     url: https://packages.microsoft.com/keys/microsoft.asc
+     state: present
+
+-  name: Add microsoft repo. 
    apt_repository:
      repo: deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main
      state: present
