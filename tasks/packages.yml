@@ -3,6 +3,7 @@
      name:
        - htop
        - vim
+       - dconf-cli
 
 -  name: Copy wallpaper file.
    copy:
