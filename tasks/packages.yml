@@ -33,7 +33,11 @@
      url: https://packages.microsoft.com/keys/microsoft.asc
      state: present
 
--  name: Add microsoft repo. 
+-  name: Add microsoft VS Code repo. 
    apt_repository:
      repo: deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main
      state: present
+
+-  name: Add Microsoft Teams repo.
+   apt_repository:
+     repo: https://packages.microsoft.com/repos/ms-teams stable main
