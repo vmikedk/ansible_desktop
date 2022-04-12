@@ -17,7 +17,7 @@
 -  name: Set Wallpaper.
    dconf:
      key: "/org/gnome/desktop/background/picture-uri"
-     value: "'file://user/share/backgrounds/ansible-wallpaper.png'"
+     value: "'file:///user/share/backgrounds/ansible-wallpaper.png'"
 
 -  name: Set Wallpaper position.
    dconf:
