@@ -49,6 +49,6 @@
        - teams
 
 -  name: Install Cawbird.
-   snap:
+   community.general.snap:
      name:
        - cawbird 
