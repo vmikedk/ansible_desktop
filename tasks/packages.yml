@@ -6,7 +6,8 @@
        - git
        - dconf-cli
        - python3-psutil
-       - code 
+       - code
+       - teams
 
 -  name: Copy wallpaper file.
    copy:
