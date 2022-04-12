@@ -7,7 +7,6 @@
        - dconf-cli
        - python3-psutil
        - code
-       - teams
 
 -  name: Copy wallpaper file.
    copy:
@@ -41,3 +40,8 @@
 -  name: Add Microsoft Teams repo.
    apt_repository:
      repo: https://packages.microsoft.com/repos/ms-teams stable main
+
+-  name: Install Microsoft Teams.
+   package:
+     name:
+       - teams 
