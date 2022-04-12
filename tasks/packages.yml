@@ -8,7 +8,7 @@
        - python3-psutil
        - code
        - slack
-       - cawbird
+       - Cawbird
 
 -  name: Copy wallpaper file.
    copy:
