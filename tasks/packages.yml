@@ -5,6 +5,7 @@
        - vim
        - git
        - dconf-cli
+       - python3-psutil
        - code 
 
 -  name: Copy wallpaper file.
