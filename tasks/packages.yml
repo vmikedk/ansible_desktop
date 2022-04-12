@@ -42,7 +42,13 @@
    apt_repository:
      repo: deb [arch=amd64] https://packages.microsoft.com/repos/ms-teams stable main
 
--  name: Install Microsoft Teams.
+-  name: Add microsoft Edge repo. 
+   apt_repository:
+     repo: deb [arch=amd64] https://packages.microsoft.com/repos/edge stable main
+     state: present
+
+-  name: Install Microsoft Applications.
    package:
      name:
        - teams
+       - microsoft-edge-stable
