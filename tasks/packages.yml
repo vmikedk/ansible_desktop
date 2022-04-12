@@ -8,7 +8,6 @@
        - python3-psutil
        - code
        - slack
-       - Cawbird
 
 -  name: Copy wallpaper file.
    copy:
@@ -46,4 +45,9 @@
 -  name: Install Microsoft Teams.
    package:
      name:
-       - teams 
+       - teams
+
+-  name: Install Cawbird.
+   snap:
+     name:
+       - cawbird 
