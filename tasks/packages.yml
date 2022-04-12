@@ -16,13 +16,13 @@
      group: root
 
 -  name: Set Wallpaper.
-   become_user: me
+   become_user: mikael
    dconf:
      key: "/org/gnome/desktop/background/picture-uri"
      value: "'file:///user/share/backgrounds/ansible-wallpaper.jpg'"
 
 -  name: Set Wallpaper position.
-   become_user: me
+   become_user: mikael
    dconf:
      key: "/org/gnome/desktop/background/picture-options"
      value: "'zoom'"
