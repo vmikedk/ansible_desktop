@@ -6,7 +6,6 @@
        - git
        - dconf-cli
        - python3-psutil
-       - code
        - slack
 
 -  name: Copy wallpaper file.
@@ -52,3 +51,4 @@
      name:
        - teams
        - microsoft-edge-stable
+       - code
