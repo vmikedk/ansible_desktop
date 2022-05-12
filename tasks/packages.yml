@@ -7,7 +7,6 @@
        - dconf-cli
        - python3-psutil
        - slack
-       - flatpak-module-tools
 
 -  name: Copy wallpaper file.
    copy:
