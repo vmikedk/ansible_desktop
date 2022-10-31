@@ -6,7 +6,6 @@
        - git
        - dconf-cli
        - python3-psutil
-       - slack
 
 -  name: Copy wallpaper file.
    copy:
